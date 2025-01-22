@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Interactiva</title>
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="styles2.css"> 
+  <link rel="stylesheet" href="styles3.css"> 
+</head>
+<body>
+  <header class="header">
+    <h1>Bienvenido a Mi Página</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#servicios" class="dropdown-btn">Servicios</a>
+          <ul class="dropdown-menu">
+            <li><a href="#web">Desarrollo Web</a></li>
+            <li><a href="#design">Diseño Gráfico</a></li>
+            <li><a href="#seo">SEO</a></li>
+          </ul>
+        </li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Esta es una página interactiva con menús desplegables y botones atractivos.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <p>Ofrecemos una variedad de servicios para ayudarte a destacar en el mundo digital.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <button class="cta-button">Contáctanos</button>
+    <p>&copy; 2025 Mi Página Interactiva. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // JavaScript para manejar el menú desplegable
+    const dropdownBtn = document.querySelector('.dropdown-btn');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
+    dropdownBtn.addEventListener('click', () => {
+      dropdownMenu.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>

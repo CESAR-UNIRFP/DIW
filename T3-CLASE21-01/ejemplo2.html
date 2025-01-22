@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo DOM</title>
+</head>
+<body>
+  <!-- Elementos HTML -->
+  <h1 id="titulo">Hola, Mundo</h1>
+  <button id="boton">Haz clic aquí</button>
+
+  <!-- Script JavaScript -->
+  <script>
+    // Accedemos al elemento del título y al botón
+    let titulo = document.getElementById("titulo");
+    let boton = document.getElementById("boton");
+
+    // Cambiamos el texto del título al hacer clic en el botón
+    boton.addEventListener("click", function() {
+      titulo.textContent = "¡Has hecho clic!";
+    });
+  </script>
+</body>
+</html>
