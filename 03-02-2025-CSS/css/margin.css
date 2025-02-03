@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.img1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    margin-right: .5em;
+    border: 2px solid red;
+}
+
+.img2 {
+    margin: .5em .5em .5em 1em;
+    border: 2px solid blue;
+}
+
+.img3 {
+    margin: .5em;
+    margin: 1em;
+    border: 2px solid green;
+}

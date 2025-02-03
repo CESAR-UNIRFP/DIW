@@ -1,0 +1,24 @@
+.caja {
+    width: 250px;
+    height: 120px;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 20px;
+    border: 2px dashed black;
+    background-image: url('../images/image.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.caja2 {
+    width: 250px;
+    height: 120px;
+    background-color: rgb(30, 122, 221);
+    padding: 10px;
+    margin: 20px;
+    border: 2px dashed rgb(223, 24, 147);
+    background-image: url('../images/help.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
