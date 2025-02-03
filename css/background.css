@@ -1,0 +1,21 @@
+#capa1 {
+    background-image: url("../images/help.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    }
+    #capa2 {
+    background-image: url("../images/help.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+    #capa3 {
+    background-image: url("../images/help.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    }
+    
+    #capa1, #capa2, #capa3 {
+        width: 300px;  
+        height: 200px; 
+        background-size: cover; 
+    }
