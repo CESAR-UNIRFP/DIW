@@ -1,0 +1,14 @@
+.contenedor {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye los elementos */
+    align-items: center; /* Alinea verticalmente */
+    background-color: #ddd;
+    padding: 20px;
+    flex-direction: column;  /*Cambia a disposición vertical */
+    
+    }
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+}

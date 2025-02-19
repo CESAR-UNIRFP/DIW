@@ -1,0 +1,12 @@
+.contenedor {
+    display: flex;
+    gap: 10px;
+    background-color: #ddd;
+    padding: 20px;
+}
+.box {
+    flex: 1 1 100px;  /*Crece, se encoge, tamaño base de 100px */
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}

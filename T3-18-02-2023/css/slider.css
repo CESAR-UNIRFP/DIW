@@ -1,0 +1,29 @@
+@keyframes slidy {
+    0%, 20% { left: 0%; }
+    25%, 45% { left: -100%; }
+    50%, 70% { left: -200%; }
+    75%, 95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+body { margin: 0; overflow: hidden; }
+
+#slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    display: flex;
+    animation: slidy 10s infinite;
+}
+
+#slider img {
+    width: 20%;
+}
+
