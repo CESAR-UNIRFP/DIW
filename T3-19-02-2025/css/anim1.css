@@ -1,0 +1,13 @@
+@keyframes mover { 
+    from { left: 0px; } 
+    to { left: 100px; } 
+    } 
+    
+    .box { 
+        position: relative;  /* Necesario para que left funcione */
+        width: 50px;         /* Tamaño visible */
+        height: 50px;
+        background-color: red;
+        animation: mover 2s infinite alternate; 
+    }
+    

@@ -1,0 +1,12 @@
+@keyframes mover {
+    0% { left: 0px; }
+    100% { left: 200px; }
+}
+
+.caja {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    animation: mover 2s infinite alternate;
+}

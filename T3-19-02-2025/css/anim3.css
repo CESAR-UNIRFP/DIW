@@ -1,0 +1,11 @@
+@keyframes cambiarColor {
+    0% { background-color: red; }
+    50% { background-color: yellow; }
+    100% { background-color: green; }
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    animation: cambiarColor 3s infinite;
+}
